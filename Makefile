@@ -2,6 +2,6 @@ WD  := $(PWD)
 CWD := $(shell pwd)
 
 all:
-  echo ${WD}
-  echo ${CWD}
-  echo ${PWD}
+	echo ${WD}
+	echo ${CWD}
+	echo ${PWD}
